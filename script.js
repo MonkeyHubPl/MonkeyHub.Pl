@@ -1,5 +1,5 @@
 function copyIP() {
-    const ip = '777code.pl';
+    const ip = 'MonkeyHub.Pl';
     navigator.clipboard.writeText(ip).then(function() {
         const button = document.querySelector('.copy-btn');
         const originalHTML = button.innerHTML;
