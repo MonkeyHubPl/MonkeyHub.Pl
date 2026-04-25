@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>777code - Twój unikalny serwer Minecraft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="logo.png" href="logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo">
+                    <img src="logo.png" alt="777code Logo" />
+                </div>
+                <span>777code</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Strona Główna</a></li>
+                <li><a href="#about" class="nav-link">Historia</a></li>
+                <li><a href="https://itemshop.777code" target="_blank" class="nav-link">Sklep</a></li>
+                <li><a href="social-media.html" class="nav-link">Social Media</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="regulamin.html" class="nav-link">Regulamin</a></li>
+                <li><a href="#staff" class="nav-link">Zarząd</a></li>
+                <li><a href="https://discord.gg/777code" target="_blank" class="nav-link discord-link">
+                    <i class="fab fa-discord"></i> Dołącz Teraz
+                </a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-background">
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="main-title">777code.pl</span>
+                </h1>
+                <p class="hero-subtitle">Twój unikalny serwer Minecraft. Zapraszamy do rozgrywki na <bold>777code.pl</bold></p>
+                <div class="ip-display">
+                    <span class="ip-label">IP Serwera:</span>
+                    <div class="ip-container">
+                        <code class="server-ip">777code.pl</code>
+                        <button class="copy-btn" onclick="copyIP()" title="Kopiuj IP">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        <i class="fas fa-play"></i>
+                        Dowiedz się więcej
+                    </a>
+                    <a href="https://itemshop.777code.pl" target="_blank" class="btn btn-secondary">
+                        <i class="fas fa-shopping-cart"></i>
+                        Sklep
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="server-logo-container">
+                    <img src="logo.png" alt="777code Logo" class="server-logo" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                Historia Serwera
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date"></div>
+                    <div class="timeline-content">
+                        <h3>Początek przygody</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date"></div>
+                    <div class="timeline-content">
+                        <h3>Rozwój społeczności</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date"></div>
+                    <div class="timeline-content">
+                        <h3>Przyszłość</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quick-links" class="quick-links">
+        <div class="container">
+            <h2 class="section-title">
+                Przydatne Linki
+            </h2>
+            <div class="quick-links-grid">
+                <a href="social-media.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Social Media</h3>
+                    <p>Dołącz do naszej społeczności na Discord, YouTube, Instagram i TikTok</p>
+                </a>
+                
+                <a href="faq.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>FAQ</h3>
+                    <p>Znajdź odpowiedzi na najczęściej zadawane pytania o serwer</p>
+                </a>
+                
+                <a href="regulamin.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <h3>Regulamin</h3>
+                    <p>Zapoznaj się z zasadami obowiązującymi na serwerze</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="staff" class="staff">
+        <div class="container">
+            <h2 class="section-title">
+                Zarząd Serwera
+            </h2>
+            <div class="staff-grid">
+                <div class="staff-card">
+                    <div class="staff-avatar owner">
+                        <img src="logo.png" alt="avatar" class="staff-avatar" />
+                    </div>
+                    <h3>Brak osoby</h3>
+                    <p class="staff-role">Ranga</p>
+                    <p class="staff-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="staff-social">                    
+                    </div>
+                </div>
+                <div class="staff-card">
+                    <div class="staff-avatar owner">
+                        <img src="logo.png" alt="avatar" class="staff-avatar" />
+                    </div>
+                    <h3>Brak osoby</h3>
+                    <p class="staff-role">Ranga</p>
+                    <p class="staff-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="staff-social">                    
+                    </div>
+                </div>
+                <div class="staff-card">
+                    <div class="staff-avatar owner">
+                        <img src="logo.png" alt="avatar" class="staff-avatar" />
+                    </div>
+                    <h3>Brak osoby</h3>
+                    <p class="staff-role">Ranga</p>
+                    <p class="staff-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="staff-social">                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-cube"></i>
+                        <span>777code</span>
+                    </div>
+                    <p>Najlepszy serwer Minecraft, z unikalnym stylem i pomysłem</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Linki</h4>
+                    <ul>
+                        <li><a href="#home">Strona Główna</a></li>
+                        <li><a href="#about">Historia</a></li>
+                        <li><a href="#shop">Sklep</a></li>
+                        <li><a href="regulamin.html">Regulamin</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#staff">Zarząd</a></li>
+                        <li><a href="social-media.html">Social Media</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> 777code.kontakt@gmail.com</p>
+                        <p><i class="fab fa-discord"></i> dc.777code.pl</p>
+                        <p><i class="fas fa-server"></i> 777code.pl</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 777code.pl - Wszystkie prawa zastrzeżone</p>
+                <p class="disclaimer">Serwer nie jest w żaden sposób powiązany z firmą Mojang AB ani Microsoft.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
